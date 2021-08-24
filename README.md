@@ -1,16 +1,20 @@
 # README
 
+## Parts
+- SKU: SEN0137
+  - https://www.dfrobot.com/product-1102.html 
 - DFRobot DHT22 pinout
   - left green pin is data/signal, middle red is vcc/5v, and right black is GND
-- RaspberryPi 
+- Raspberry Pi 3 Model B Rev 1.2 or better 
 
 
-| Left     	|   	|   	| Right  	|
-|----------	|---	|---	|--------	|
-| 3.3v PWR 	| 1 	| 2 	| 5V PWR 	|
-| GPIO 2   	| 3 	| 4 	| 5V PWR 	|
-| GPIO 3   	| 5 	| 6 	| GND    	|
-| GPIO 4   	| 7 	| 8 	| UARTO TX|
+## Connections at `*`
+| Left     	  |   	|   	| Right  	  |
+|-----------	|---	|---	|---------	|
+| 3.3v PWR  	| 1 	| 2 	| 5V PWR  	|
+| GPIO 2    	| 3 	| 4 	| 5V PWR* 	|
+| GPIO 3    	| 5 	| 6 	| GND*    	|
+| GPIO 4*   	| 7 	| 8 	| UARTO TX  |
 
 
 ## Dependencies

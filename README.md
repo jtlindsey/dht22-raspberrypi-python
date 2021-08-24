@@ -29,14 +29,20 @@ sudo pip3 install Adafruit_DHT
 
 MQTT library
 https://www.eclipse.org/paho/index.php?page=clients/python/index.php
+
 `pip install paho-mqtt`
+
 Install with root home target for use in systemd script `(-H)`
+
 `sudo -H pip install paho-mqtt`
 
 
 Reading ENV vars
+
 `pip install python-dotenv`
+
 Install with root home target for use in systemd script `(-H)`
+
 `sudo -H pip install python-dotenv`
 
 ## Example `.env`
@@ -56,6 +62,7 @@ PORT=1883
 ### Create script
 
 Run the following command and add the script data:
+
 `sudo vi /etc/systemd/system/dht22.service`
 
 ```
@@ -84,8 +91,8 @@ journalctl -b -e
 ```
 
 ## dht22 code ref
+
 https://pimylifeup.com/raspberry-pi-humidity-sensor-dht22/
-Installation
 
 ## Notes
 
